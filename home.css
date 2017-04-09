@@ -29,6 +29,19 @@ video {
   left: 44%;
   top: 0%;
 }
+#james {
+  top: 200px;
+  left: 28%;
+  height: 200px;
+  width: 600px;
+  color: white;
+  position: absolute;
+  text-align: center;
+}
+#james h1{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 40px;
+}
 .title{
   font-family: 'EB Garamond', serif;
   text-align: center;

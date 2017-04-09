@@ -1,6 +1,7 @@
 // $('#profession').delay(2000).animate({top: '150px', left: '-=250px'}, 1000);
 
 // $('#profession_2').delay(2000).animate({top: '150px', left: '+=300px'}, 1000);
+$('#james').delay(700).animate({top: '300px'}, 800);
 
 $('#nav_bar_left', '#nav_bar_right').hide(800);
 
