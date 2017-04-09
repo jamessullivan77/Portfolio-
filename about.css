@@ -78,9 +78,29 @@ h3{
   color: gold;
   cursor: pointer;
 }
-.contact{
+.web_dev{
   width: 100px;
   margin-left: 20%;
+  display: inline-block;
+  z-index: 2px;
+}
+.web_dev:hover{
+  color: gold;
+  cursor: pointer;
+}
+.about{
+  width: 100px;
+  margin-left: 35%;
+  display: inline-block;
+  z-index: 2px;
+}
+.about:hover{
+  color: gold;
+  cursor: pointer;
+}
+.contact{
+  width: 100px;
+  margin-left: 21%;
   display: inline-block;
   z-index: 2px;
 }
@@ -88,28 +108,8 @@ h3{
   color: gold;
   cursor: pointer;
 }
-.linkedin{
-  width: 100px;
-  margin-left: 35%;
-  display: inline-block;
-  z-index: 2px;
-}
-.linkedin:hover{
-  color: gold;
-  cursor: pointer;
-}
-.github{
-  width: 100px;
-  margin-left: 21%;
-  display: inline-block;
-  z-index: 2px;
-}
-.github:hover{
-  color: gold;
-  cursor: pointer;
-}
 #start-up{
-  margin-top: 25%;
+  margin-top: -5%;
   font-family: 'Palanquin Dark', sans-serif;
   text-align: center;
   font-size: 30px;
@@ -121,6 +121,14 @@ h3{
   font-family: 'Palanquin Dark', sans-serif;
   font-size: 20px;
   color: dodgerblue;
-  text-indent: 3%;
+  
+}
+#about{
+  margin-top: 20%;
+  font-family: 'Palanquin Dark', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: gold;
+
 }
 

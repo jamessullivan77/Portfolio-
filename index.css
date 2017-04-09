@@ -66,33 +66,33 @@ h3{
 	color: gold;
 	cursor: pointer;
 }
-.contact{
+.web_dev{
 	width: 100px;
 	margin-left: 20%;
 	display: inline-block;
 	z-index: 2px;
 }
-.contact:hover{
+.web_dev:hover{
 	color: gold;
 	cursor: pointer;
 }
-.linkedin{
+.about{
 	width: 100px;
 	margin-left: 35%;
 	display: inline-block;
 	z-index: 2px;
 }
-.linkedin:hover{
+.about:hover{
 	color: gold;
 	cursor: pointer;
 }
-.github{
+.contact{
 	width: 100px;
 	margin-left: 21%;
 	display: inline-block;
 	z-index: 2px;
 }
-.github:hover{
+.contact:hover{
 	color: gold;
 	cursor: pointer;
 }

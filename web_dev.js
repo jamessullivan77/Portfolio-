@@ -12,17 +12,17 @@ $('.home').hide(1);
 
 $('.home').delay(800).show(100);
 
+$('.web_dev').hide(1);
+
+$('.web_dev').delay(800).show(100);
+
+$('.about').hide(1);
+
+$('.about').delay(800).show(100);
+
 $('.contact').hide(1);
 
 $('.contact').delay(800).show(100);
-
-$('.resume').hide(1);
-
-$('.resume').delay(800).show(100);
-
-$('.linkedin').hide(1);
-
-$('.linkedin').delay(800).show(100);
 
 $('#nav_bar_right').hide().delay(800).show().animate({ left: '-=700px', width: '700px'});
 

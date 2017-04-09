@@ -21,17 +21,17 @@ $('#welcome').hide().delay().slideDown(2000);
 // 2000     17000
 $('#james').hide().delay(2000).slideDown(2000);
 // 3000     18000
-$('#profession').hide().delay(3000).slideDown(2000);
-// 3000     18000
-$('#profession_2').hide().delay(3000).slideDown(2000);
+// $('#profession').hide().delay(3000).slideDown(2000);
+// // 3000     18000
+// $('#profession_2').hide().delay(3000).slideDown(2000);
 // 4000
 $('#welcome').hide().delay(2000).slideUp(2000);
 // 4000
 $('#james').delay(2000).animate({top: '25px'}, 1000);
 // 2000
-$('#profession').delay(2000).animate({top: '150px', left: '-=250px'}, 1000);
-// 2000
-$('#profession_2').delay(2000).animate({top: '150px', left: '+=300px'}, 1000);
+// $('#profession').delay(2000).animate({top: '150px', left: '-=250px'}, 1000);
+// // 2000
+// $('#profession_2').delay(2000).animate({top: '150px', left: '+=300px'}, 1000);
 
 $('#nav_bar_left', '#nav_bar_right').hide(8000);
 
@@ -41,17 +41,17 @@ $('.home').hide(1);
 
 $('.home').delay(9000).show(100);
 
+$('.web_dev').hide(1);
+
+$('.web_dev').delay(9000).show(100);
+
+$('.about').hide(1);
+
+$('.about').delay(9000).show(100);
+
 $('.contact').hide(1);
 
 $('.contact').delay(9000).show(100);
-
-$('.linkedin').hide(1);
-
-$('.linkedin').delay(9000).show(100);
-
-$('.github').hide(1);
-
-$('.github').delay(9000).show(100);
 
 $('#nav_bar_right').hide().delay(8000).show().animate({ left: '-=700px', width: '700px'});
 
