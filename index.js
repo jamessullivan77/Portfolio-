@@ -27,7 +27,8 @@ $('#james').hide().delay(2000).slideDown(2000);
 // 4000
 $('#welcome').hide().delay(2000).slideUp(2000);
 // 4000
-$('#james').delay(2000).animate({top: '25px'}, 1000);
+$('#james').delay(2000).animate({top: '300px'}, 1000);
+
 // 2000
 // $('#profession').delay(2000).animate({top: '150px', left: '-=250px'}, 1000);
 // // 2000
