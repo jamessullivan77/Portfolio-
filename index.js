@@ -40,19 +40,19 @@ $('#nav_bar_left').hide().delay(8000).show().animate({ width: '700px'});
 
 $('.home').hide(1);
 
-$('.home').delay(9000).show(100);
+$('.home').delay(8000).show(100);
 
 $('.web_dev').hide(1);
 
-$('.web_dev').delay(9000).show(100);
+$('.web_dev').delay(8000).show(100);
 
 $('.about').hide(1);
 
-$('.about').delay(9000).show(100);
+$('.about').delay(8000).show(100);
 
 $('.contact').hide(1);
 
-$('.contact').delay(9000).show(100);
+$('.contact').delay(8000).show(100);
 
 $('#nav_bar_right').hide().delay(8000).show().animate({ left: '-=700px', width: '700px'});
 
