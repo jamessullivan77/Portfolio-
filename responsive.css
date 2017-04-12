@@ -6,6 +6,9 @@ header
   left: 39%;
   position: absolute;
 }
+#circle h2{
+  left: 45%;
+}
 .home{
   position: absolute;
   left: -10%;
