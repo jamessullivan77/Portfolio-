@@ -119,12 +119,15 @@ contact page
   top: 80%;
 }
 /*#####################################
-home page
+home page/
 #####################################*/
 #background{
   margin-top: 50%;
 }
 #james{
+  left: 20%;
+}
+#welcome {
   left: 20%;
 }
 
