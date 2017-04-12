@@ -32,13 +32,13 @@ body{
   top: 50%;
   left: 28%;
   border-radius: 50%;
-  position: absolute;
   border: solid dodgerblue 5px;
   display: inline-block;
   margin: 10px;
-  z-index: -2;
+/*  z-index: -2;*/
   opacity: 0;
   transition: 1s ease-out;
+  position: absolute;
 }
 #circle_1.fade-in{
   opacity: 1;
@@ -47,6 +47,7 @@ body{
   height: 600px;
   width:  600px;
   border-radius: 50%;
+
 }
 #circle h2{
   font-family: times;
@@ -59,7 +60,8 @@ body{
 .title{
   margin-top: 20%;
   text-align: center;
-  z-index: 100;
+/*  z-index: 100;*/
+  position: static;
 }
 .title h1{
   font-family:'Timmana', sans-serif;
@@ -129,9 +131,10 @@ body{
   border-radius: 50%;
   position: absolute;
   border: solid dodgerblue 5px;
+  position: absolute;
   display: inline-block;
-  margin: 10px;
   z-index: -2;
+  margin: 10px;
   opacity: 0;
   transition: 1s ease-out;
 }
@@ -149,6 +152,7 @@ body{
   font-size: 17px;
   color: gold;
   z-index: 100;
+  position: static;
 }
 .title_2 h1{
   font-family:'Timmana', sans-serif;
@@ -156,7 +160,6 @@ body{
   color: gold;
   margin-left: 25%;
   margin-right: 20%;
-  z-index: 100;
 }
 .title_2 p{
   font-family: 'Timmana', sans-serif;
@@ -164,7 +167,6 @@ body{
   color: dodgerblue;
   margin-left: 15%;
   margin-right: 15%;
-  z-index: 100;
 }
 h3{
   display: inline-block;
@@ -214,3 +216,6 @@ h3{
   color: gold;
   cursor: pointer;
 }
+
+
+

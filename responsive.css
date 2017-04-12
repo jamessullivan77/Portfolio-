@@ -1,0 +1,131 @@
+@media only screen and (max-device-width: 600px){
+/*#####################################
+header
+#####################################*/
+#circle{
+  left: 39%;
+  position: absolute;
+}
+.home{
+  position: absolute;
+  left: -10%;
+}
+.web_dev{
+  position: absolute;
+  left: 14%;
+  z-index: 2;
+}
+.about{
+  position: absolute;
+  left: 17%;
+  z-index: 2;
+}
+.contact{
+  position: absolute;
+  z-index: 2;
+  left: 55%;
+}
+/*#####################################
+projects/web_dev page
+#####################################*/
+#coming_soon{
+  font-size: 90px;
+  opacity: 0;
+}
+#circle_1{
+position: absolute;
+top: 300px;
+height: 450px;
+width: 450px;
+left: 27%;
+}
+
+#circle_1 video{
+position: absolute;
+height: 450px;
+width: 450px; 
+}
+.fa-github:before{
+left: -3%;
+}
+#circle_2{
+position: absolute;
+margin-top: 40%;
+top: 110%;
+height: 450px;
+width: 450px;
+left: 27%;
+/*margin-bottom: 30%;*/
+}
+#circle_2 video{
+position: absolute;
+height: 450px;
+width: 450px; 
+}
+.title .fa-github:before{
+  clear: both;
+  position: static;
+  display: block;
+  margin-bottom: 1000px;
+}
+.title_2{
+  margin-top: 10%;
+  position: relative;
+  display: block;
+  clear: both;
+}
+/*#####################################
+About Page
+#####################################*/
+#about{
+  margin-top: 30%;
+  position: relative;
+  text-align: center;
+}
+#p1{
+  display: block;
+  position: relative;
+  text-align: center;
+}
+/*#####################################
+contact page
+#####################################*/
+#contact{
+  margin-top: 30%;
+  font-size: 50px;
+}
+#be{
+  font-size: 43px;
+}
+#email_1 h2{
+  font-size: 40px;
+}
+#se{
+  font-size: 43px;
+}
+#email_2 h2{
+  font-size: 40px;
+}
+.fa-github-square:before{
+  top: 80%;
+}
+.fa-linkedin-square:before{
+  top: 80%;
+}
+.fa-google-plus-square:before{
+  top: 80%;
+}
+.fa-file-text:before{
+  top: 80%;
+}
+/*#####################################
+home page
+#####################################*/
+#background{
+  margin-top: 50%;
+}
+#james{
+  left: 20%;
+}
+
+  }
