@@ -1,3 +1,5 @@
+/*@media only screen and (min-width: 2559px){ */
+
 body{
   background-color: black;
 }
@@ -129,5 +131,5 @@ h3{
   font-size: 30px;
   color: gold;
 }
-
+ /* }*/
 

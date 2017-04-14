@@ -1,3 +1,5 @@
+/*@media only screen and (min-width: 2560px){ */
+
 body{
 	height: 100%;
 	width: 100%;
@@ -298,5 +300,5 @@ h3{
 	transform: rotate(360deg);
 }
 
-
+/*	}*/
 

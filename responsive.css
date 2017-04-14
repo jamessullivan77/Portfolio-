@@ -136,9 +136,108 @@ home page/
 
   }
 
-/*@media only screen and (max-device-width: 2560px){
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px){
+/*#####################################
+index/nav bar
+#####################################*/
 
+#circle{
+  left: 38%;
+  position: absolute;
+}
+#circle h2{
+  left: 47%;
+}
+.home{
+  position: absolute;
+  left: -15%;
+}
+.web_dev{
+  position: absolute;
+  left: 14%;
+  z-index: 2;
+}
+.about{
+  position: absolute;
+  left: 17%;
+  z-index: 2;
+}
+.contact{
+  position: absolute;
+  z-index: 2;
+  left: 60%;
+}
+#background{
+  margin-top: 20%;
+}
+#james{
+  left: 20%;
+}
+#welcome {
+  left: 20%;
+}
+/*#####################################
+projects/web_dev page
+#####################################*/
+#coming_soon{
+  font-size: 90px;
+  opacity: 0;
+}
+#circle_1{
+position: absolute;
+top: 300px;
+height: 450px;
+width: 450px;
+left: 27%;
+}
+#circle_1 video{
+position: absolute;
+height: 450px;
+width: 450px; 
+}
+#circle_2{
+position: absolute;
+margin-top: 15%;
+top: 110%;
+height: 450px;
+width: 450px;
+left: 27%;
+/*margin-bottom: 20%;*/
+}
+#circle_2 video{
+position: absolute;
+height: 450px;
+width: 450px; 
+}
+.fa-github:before{
+left: -3%;
+}
+/*#####################################
+About Page
+#####################################*/
+#about{
+  margin-top: 30%;
+  position: relative;
+  text-align: center;
+}
+/*#####################################
+contact page
+#####################################*/
+#contact{
+  margin-top: 30%;
+  font-size: 50px;
+}
+.fa-github-square:before{
+  top: 80%;
+}
+.fa-linkedin-square:before{
+  top: 80%;
+}
+.fa-google-plus-square:before{
+  top: 80%;
+}
+.fa-file-text:before{
+  top: 81%;
+}
 
-
-
-  }*/
+  }
