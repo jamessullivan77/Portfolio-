@@ -159,13 +159,13 @@ index/nav bar
 }
 .about{
   position: absolute;
-  left: 17%;
+  left: -5%;
   z-index: 2;
 }
 .contact{
   position: absolute;
   z-index: 2;
-  left: 60%;
+  left: 50%;
 }
 #background{
   margin-top: 20%;
