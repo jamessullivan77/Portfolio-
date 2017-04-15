@@ -178,6 +178,22 @@ $('#profession_2').mouseout(function(){
 });  
 
 
+// #######################################
+// for media quary
+// ######################################
+// $(window).resize(function(){     
+
+//        if ($('header').width() == 1920 ){
+
+//          $('#nav_bar_right').hide().delay(8000).show().animate({ left: '-=2000px', width: '2000px'});  
+//        }else{
+//         $('#nav_bar_right').hide().delay(8000).show().animate({ left: '-=700px', width: '700px'});
+//        } 
+
+// });
+
+
+
 
 
 

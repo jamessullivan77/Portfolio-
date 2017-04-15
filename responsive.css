@@ -146,7 +146,7 @@ index/nav bar
   position: absolute;
 }
 #circle h2{
-  left: 47%;
+  left: 45%;
 }
 .home{
   position: absolute;
@@ -171,11 +171,14 @@ index/nav bar
   margin-top: 20%;
 }
 #james{
+  top: 35%;
   left: 35%;
 }
 #welcome {
+  top: 15%;
   left: 35%;
 }
+
 /*#####################################
 projects/web_dev page
 #####################################*/
@@ -273,13 +276,13 @@ contact page
   font-size: 45px;
 }
 #email_1 h2{
-  font-size: 40px;
+  font-size: 35px;
 }
 #se{
   font-size: 45px;
 }
 #email_2 h2{
-  font-size: 40px;
+  font-size: 35px;
 }
 .fa-github-square:before{
   top: 90%;
