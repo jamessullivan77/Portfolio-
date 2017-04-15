@@ -135,14 +135,14 @@ home page/
 }
 
   }
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px){
+/*1440*/
+@media only screen and (min-device-width: 1920px) and (max-device-width: 1920px){
 /*#####################################
 index/nav bar
 #####################################*/
 
 #circle{
-  left: 38%;
+  left: 45%;
   position: absolute;
 }
 #circle h2{
@@ -150,11 +150,11 @@ index/nav bar
 }
 .home{
   position: absolute;
-  left: -15%;
+  left: -5%;
 }
 .web_dev{
   position: absolute;
-  left: 14%;
+  left: 35%;
   z-index: 2;
 }
 .about{
@@ -171,10 +171,10 @@ index/nav bar
   margin-top: 20%;
 }
 #james{
-  left: 20%;
+  left: 35%;
 }
 #welcome {
-  left: 20%;
+  left: 35%;
 }
 /*#####################################
 projects/web_dev page
@@ -186,37 +186,79 @@ projects/web_dev page
 #circle_1{
 position: absolute;
 top: 300px;
-height: 450px;
-width: 450px;
-left: 27%;
+height: 600px;
+width: 600px;
+left: 35%;
 }
 #circle_1 video{
 position: absolute;
-height: 450px;
-width: 450px; 
+height: 600px;
+width: 600px; 
+}
+.title{
+  margin-top: -5%;
+  text-align: center;
+/*  z-index: 100;*/
+  position: static;
+}
+.title h1{
+  font-family:'Timmana', sans-serif;
+  font-size: 35px;
+  color: gold;
+  margin-left: 25%;
+  margin-right: 20%;
+  z-index: 100;
+}
+.title p{
+  font-family: 'Timmana', sans-serif;
+  font-size: 25px;
+  color: dodgerblue;
+  margin-left: 15%;
+  margin-right: 15%;
+  z-index: 100;
 }
 #circle_2{
 position: absolute;
-margin-top: 15%;
+margin-top: 33%;
 top: 110%;
-height: 450px;
-width: 450px;
-left: 27%;
+height: 600px;
+width: 600px;
+left: 35%;
 /*margin-bottom: 20%;*/
 }
 #circle_2 video{
 position: absolute;
-height: 450px;
-width: 450px; 
+height: 600px;
+width: 600px; 
 }
-.fa-github:before{
-left: -3%;
+.title_2{
+  margin-top: 45%;
+  text-align: center;
+  font-size: 17px;
+  color: gold;
+  z-index: 100;
+  position: static;
 }
+.title_2 h1{
+  font-family:'Timmana', sans-serif;
+  font-size: 35px;
+  color: gold;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+.title_2 p{
+  font-family: 'Timmana', sans-serif;
+  font-size: 25px;
+  color: dodgerblue;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 /*#####################################
 About Page
 #####################################*/
 #about{
-  margin-top: 30%;
+  margin-top: 20%;
   position: relative;
   text-align: center;
 }
@@ -224,20 +266,32 @@ About Page
 contact page
 #####################################*/
 #contact{
-  margin-top: 30%;
+  margin-top: 15%;
   font-size: 50px;
 }
+#be{
+  font-size: 45px;
+}
+#email_1 h2{
+  font-size: 40px;
+}
+#se{
+  font-size: 45px;
+}
+#email_2 h2{
+  font-size: 40px;
+}
 .fa-github-square:before{
-  top: 80%;
+  top: 90%;
 }
 .fa-linkedin-square:before{
-  top: 80%;
+  top: 90%;
 }
 .fa-google-plus-square:before{
-  top: 80%;
+  top: 90%;
 }
 .fa-file-text:before{
-  top: 81%;
+  top: 91%;
 }
 
   }
