@@ -1,6 +1,6 @@
 # Portfolio-
 I Built this Portfolio to show employers the projects I have worked on since becoming a web developer. 
-Built purely using HTML/CSS.
+Built purely using HTML/CSS/Javascript.
 I wanted to challange myself with this portfolio by hand making every css position while also making it media friendly across several platforms. 
 This forced me to refamiliarize myself with @media queries. 
 It is current deployed on Heroku using a short PHP script. 
